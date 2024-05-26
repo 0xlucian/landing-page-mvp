@@ -1,5 +1,9 @@
-// src/App.js
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from 'swiper/modules'; // Import from 'swiper/modules'
 import './App.css';
 
 const App = () => {
@@ -30,7 +34,7 @@ const Header = () => (
 );
 
 const Hero = () => (
-  <div className="hero bg-cover bg-center h-80vh flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage: "url('hero.jpg')" }}>
+  <div className="hero bg-cover bg-center h-80vh flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage: "url('/assets/hero.jpg')" }}>
     <h1 className="text-3xl">Introducing the Future of Mobile Technology</h1>
     <p className="text-xl mt-2">Power, Speed, and Elegance in Your Hands</p>
     <a href="#features" className="cta bg-blue-500 text-white py-2 px-4 rounded mt-4">Pre-Order Now</a>
@@ -43,13 +47,13 @@ const Features = () => (
       id="carouselIphone15Pro1" 
       title="Apple iPhone 15, 128GB, 5G, Blue" 
       description="6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G"
-      images={["1.avif", "2.avif", "3.avif", "4.avif"]}
+      images={["/assets/1.avif", "/assets/2.avif", "/assets/3.avif", "/assets/4.avif"]}
     />
     <Feature 
       id="carouselIphone15Pro2" 
       title="Apple iPhone 15 Pro 256GB 5G Black Titanium" 
       description="6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G"
-      images={["1.avif", "2.avif", "3.avif"]}
+      images={["/assets/1.avif", "/assets/2.avif", "/assets/3.avif"]}
     />
     {/* Repeat for each phone with corresponding IDs and image paths */}
   </div>
@@ -57,23 +61,20 @@ const Features = () => (
 
 const Feature = ({ id, title, description, images }) => (
   <div className="feature flex flex-col items-center max-w-xs m-4 p-6 bg-white shadow-md rounded text-center">
-    <div id={id} className="carousel slide relative w-full" data-ride="carousel" data-interval="false">
-      <div className="carousel-inner relative w-full overflow-hidden">
-        {images.map((src, index) => (
-          <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''} relative float-left w-full`}>
-            <img src={src} className="d-block w-full" alt={title} />
-          </div>
-        ))}
-      </div>
-      <a className="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0" href={`#${id}`} role="button" data-slide="prev">
-        <span className="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-        <span className="sr-only">Previous</span>
-      </a>
-      <a className="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0" href={`#${id}`} role="button" data-slide="next">
-        <span className="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-        <span className="sr-only">Next</span>
-      </a>
-    </div>
+    <Swiper
+      modules={[Navigation, Pagination]}
+      spaceBetween={50}
+      slidesPerView={1}
+      pagination={{ clickable: true }}
+      navigation
+      className="w-full"
+    >
+      {images.map((src, index) => (
+        <SwiperSlide key={index} className="flex justify-center items-center">
+          <img src={src} alt={title} className="w-full h-auto" />
+        </SwiperSlide>
+      ))}
+    </Swiper>
     <h3 className="text-xl mt-4 mb-2">{title}</h3>
     <p className="flex-grow">{description}</p>
     <a href="#" className="cta bg-green-500 text-white py-2 px-4 rounded mt-4 w-full">Buy Now</a>
