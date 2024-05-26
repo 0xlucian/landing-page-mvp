@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules'; // Import from 'swiper/modules'
+import { Navigation, Pagination } from 'swiper/modules';
 import './App.css';
 
 const App = () => {
@@ -18,31 +18,31 @@ const App = () => {
 };
 
 const Header = () => (
-  <header className="bg-gray-900 text-white py-4 flex justify-between items-center">
+  <header className="bg-brand-black text-brand-white py-4 flex justify-between items-center">
     <div className="logo ml-4">
-      <h1>Smartphones</h1>
+      <h1 className="text-2xl font-bold">Smartphones</h1>
     </div>
     <nav className="mr-4">
-      <a href="#home" className="mx-2">Home</a>
-      <a href="#features" className="mx-2">Features</a>
-      <a href="#pricing" className="mx-2">Pricing</a>
-      <a href="#reviews" className="mx-2">Reviews</a>
-      <a href="#faqs" className="mx-2">FAQs</a>
-      <a href="#contact" className="mx-2">Contact</a>
+      <a href="#home" className="mx-2 text-brand-white hover:text-brand-blue">Home</a>
+      <a href="#features" className="mx-2 text-brand-white hover:text-brand-blue">Features</a>
+      <a href="#pricing" className="mx-2 text-brand-white hover:text-brand-blue">Pricing</a>
+      <a href="#reviews" className="mx-2 text-brand-white hover:text-brand-blue">Reviews</a>
+      <a href="#faqs" className="mx-2 text-brand-white hover:text-brand-blue">FAQs</a>
+      <a href="#contact" className="mx-2 text-brand-white hover:text-brand-blue">Contact</a>
     </nav>
   </header>
 );
 
 const Hero = () => (
-  <div className="hero bg-cover bg-center h-80vh flex flex-col justify-center items-center text-center text-white" style={{ backgroundImage: "url('/assets/hero.jpg')" }}>
-    <h1 className="text-3xl">Introducing the Future of Mobile Technology</h1>
-    <p className="text-xl mt-2">Power, Speed, and Elegance in Your Hands</p>
-    <a href="#features" className="cta bg-blue-500 text-white py-2 px-4 rounded mt-4">Pre-Order Now</a>
+  <div className="hero bg-cover bg-center h-80vh flex flex-col justify-center items-center text-center text-brand-white" style={{ backgroundImage: "url('/assets/hero.jpg')" }}>
+    <h1 className="text-5xl font-bold">Introducing the Future of Mobile Technology</h1>
+    <p className="text-2xl mt-4">Power, Speed, and Elegance in Your Hands</p>
+    <a href="#features" className="mt-6 px-8 py-4 bg-brand-blue text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-green">Pre-Order Now</a>
   </div>
 );
 
 const Features = () => (
-  <div className="features p-8 bg-white flex flex-wrap justify-center" id="features">
+  <div className="features py-16 bg-brand-white flex flex-wrap justify-center" id="features">
     <Feature 
       id="carouselIphone15Pro1" 
       title="Apple iPhone 15, 128GB, 5G, Blue" 
@@ -60,7 +60,7 @@ const Features = () => (
 );
 
 const Feature = ({ id, title, description, images }) => (
-  <div className="feature flex flex-col items-center max-w-xs m-4 p-6 bg-white shadow-md rounded text-center">
+  <div className="feature flex flex-col items-center max-w-xs m-4 p-6 bg-white shadow-lg rounded-lg text-center">
     <Swiper
       modules={[Navigation, Pagination]}
       spaceBetween={50}
@@ -75,23 +75,23 @@ const Feature = ({ id, title, description, images }) => (
         </SwiperSlide>
       ))}
     </Swiper>
-    <h3 className="text-xl mt-4 mb-2">{title}</h3>
+    <h3 className="text-xl font-semibold mt-4 mb-2">{title}</h3>
     <p className="flex-grow">{description}</p>
-    <a href="#" className="cta bg-green-500 text-white py-2 px-4 rounded mt-4 w-full">Buy Now</a>
+    <a href="#" className="mt-4 px-6 py-2 bg-brand-green text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-blue w-full">Buy Now</a>
   </div>
 );
 
 const Footer = () => (
-  <footer className="bg-gray-900 text-white text-center py-8">
+  <footer className="bg-brand-black text-brand-white text-center py-8">
     <div className="links mb-4">
-      <a href="#privacy" className="mx-2">Privacy Policy</a>
-      <a href="#terms" className="mx-2">Terms of Service</a>
-      <a href="#social" className="mx-2">Social Media</a>
+      <a href="#privacy" className="mx-2 hover:text-brand-blue">Privacy Policy</a>
+      <a href="#terms" className="mx-2 hover:text-brand-blue">Terms of Service</a>
+      <a href="#social" className="mx-2 hover:text-brand-blue">Social Media</a>
     </div>
     <div className="newsletter mt-4">
       <form action="#">
         <input type="email" placeholder="Your Email" required className="p-2 rounded mr-2 border-none" />
-        <input type="submit" value="Subscribe" className="p-2 bg-blue-500 text-white rounded cursor-pointer" />
+        <input type="submit" value="Subscribe" className="p-2 bg-brand-blue text-brand-white rounded cursor-pointer hover:bg-brand-green" />
       </form>
     </div>
   </footer>
