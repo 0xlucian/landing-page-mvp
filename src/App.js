@@ -12,10 +12,10 @@ const phones = [
     title: 'Apple iPhone 15, 128GB, 5G, Blue',
     description: '6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G',
     images: [
-      '/assets/carousel/iphone15/1.avif',
-      '/assets/carousel/iphone15/2.avif',
-      '/assets/carousel/iphone15/3.avif',
-      '/assets/carousel/iphone15/4.avif',
+      'assets/carousel/iphone15/1.avif',
+      'assets/carousel/iphone15/2.avif',
+      'assets/carousel/iphone15/3.avif',
+      'assets/carousel/iphone15/4.avif',
     ],
   },
   {
@@ -23,11 +23,11 @@ const phones = [
     title: 'Apple iPhone 15 Pro, 256GB, 5G, Black Titanium',
     description: '6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G',
     images: [
-      '/assets/carousel/iphone15ProBlack/1.avif',
-      '/assets/carousel/iphone15ProBlack/2.avif',
-      '/assets/carousel/iphone15ProBlack/3.avif',
-      '/assets/carousel/iphone15ProBlack/4.avif',
-      '/assets/carousel/iphone15ProBlack/5.avif',
+      'assets/carousel/iphone15ProBlack/1.avif',
+      'assets/carousel/iphone15ProBlack/2.avif',
+      'assets/carousel/iphone15ProBlack/3.avif',
+      'assets/carousel/iphone15ProBlack/4.avif',
+      'assets/carousel/iphone15ProBlack/5.avif',
     ],
   },
   {
@@ -35,12 +35,12 @@ const phones = [
     title: 'Apple iPhone 15 Pro, 256GB, 5G, Natural Titanium',
     description: '6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G',
     images: [
-      '/assets/carousel/iphone15ProNatural/1.avif',
-      '/assets/carousel/iphone15ProNatural/2.avif',
-      '/assets/carousel/iphone15ProNatural/3.avif',
-      '/assets/carousel/iphone15ProNatural/4.avif',
-      '/assets/carousel/iphone15ProNatural/5.avif',
-      '/assets/carousel/iphone15ProNatural/6.avif',
+      'assets/carousel/iphone15ProNatural/1.avif',
+      'assets/carousel/iphone15ProNatural/2.avif',
+      'assets/carousel/iphone15ProNatural/3.avif',
+      'assets/carousel/iphone15ProNatural/4.avif',
+      'assets/carousel/iphone15ProNatural/5.avif',
+      'assets/carousel/iphone15ProNatural/6.avif',
     ],
   },
   {
@@ -49,11 +49,11 @@ const phones = [
     description:
       '6.7-inch OLED, 120Hz refresh rate, Apple A17 Pro, 48MP triple camera, 5G, 89.75% screen-to-body ratio',
     images: [
-      '/assets/carousel/iphone15ProMax/1.avif',
-      '/assets/carousel/iphone15ProMax/2.avif',
-      '/assets/carousel/iphone15ProMax/3.avif',
-      '/assets/carousel/iphone15ProMax/4.avif',
-      '/assets/carousel/iphone15ProMax/5.avif',
+      'assets/carousel/iphone15ProMax/1.avif',
+      'assets/carousel/iphone15ProMax/2.avif',
+      'assets/carousel/iphone15ProMax/3.avif',
+      'assets/carousel/iphone15ProMax/4.avif',
+      'assets/carousel/iphone15ProMax/5.avif',
     ],
   },
   {
@@ -61,15 +61,15 @@ const phones = [
     title: 'Samsung Galaxy A55, 256GB, 8GB RAM, 5G, Awesome Lemon',
     description: '6.6-inch AMOLED, 120Hz, 5000mAh battery, 5G, Compact size',
     images: [
-      '/assets/carousel/samsungGalaxyA55/1.avif',
-      '/assets/carousel/samsungGalaxyA55/2.avif',
-      '/assets/carousel/samsungGalaxyA55/3.avif',
-      '/assets/carousel/samsungGalaxyA55/4.avif',
-      '/assets/carousel/samsungGalaxyA55/5.avif',
-      '/assets/carousel/samsungGalaxyA55/6.avif',
-      '/assets/carousel/samsungGalaxyA55/7.avif',
-      '/assets/carousel/samsungGalaxyA55/8.avif',
-      '/assets/carousel/samsungGalaxyA55/9.avif',
+      'assets/carousel/samsungGalaxyA55/1.avif',
+      'assets/carousel/samsungGalaxyA55/2.avif',
+      'assets/carousel/samsungGalaxyA55/3.avif',
+      'assets/carousel/samsungGalaxyA55/4.avif',
+      'assets/carousel/samsungGalaxyA55/5.avif',
+      'assets/carousel/samsungGalaxyA55/6.avif',
+      'assets/carousel/samsungGalaxyA55/7.avif',
+      'assets/carousel/samsungGalaxyA55/8.avif',
+      'assets/carousel/samsungGalaxyA55/9.avif',
     ],
   },
   {
@@ -78,13 +78,13 @@ const phones = [
     description:
       '6.67-inch OLED, 120Hz, MediaTek Dimensity 1080, 5000mAh, 120W fast charging, triple camera, 5G',
     images: [
-      '/assets/carousel/xiaomiRedmiNote12Pro/1.avif',
-      '/assets/carousel/xiaomiRedmiNote12Pro/2.avif',
-      '/assets/carousel/xiaomiRedmiNote12Pro/3.avif',
-      '/assets/carousel/xiaomiRedmiNote12Pro/4.avif',
-      '/assets/carousel/xiaomiRedmiNote12Pro/5.avif',
-      '/assets/carousel/xiaomiRedmiNote12Pro/6.avif',
-      '/assets/carousel/xiaomiRedmiNote12Pro/7.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/1.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/2.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/3.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/4.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/5.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/6.avif',
+      'assets/carousel/xiaomiRedmiNote12Pro/7.avif',
     ],
   },
 ];
@@ -143,7 +143,7 @@ const Header = () => (
 const Hero = () => (
   <div
     className="hero bg-cover bg-center h-80vh flex flex-col justify-center items-center text-center text-brand-white grow"
-    style={{ backgroundImage: "url('/assets/hero.jpg')" }}
+    style={{ backgroundImage: "url('assets/hero.jpg')" }}
   >
     <h1 className="text-5xl font-bold">
       Introducing the Future of Mobile Technology
