@@ -6,6 +6,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import './App.css';
 
+const buttonRedirectLink =
+  'https://keitaroadminhost.live/pP29Zh?utm_term={keyword}&gclid={gclid}&utm_creative={creative}&utm_campaign={campaignid}&utm_position={adposition}&utm_network={network}&utm_target={target}&utm_placement={placement}&utm_match={matchtype}';
+
 const phones = [
   {
     id: 'carouselIphone15',
@@ -85,6 +88,88 @@ const phones = [
       'assets/carousel/xiaomiRedmiNote12Pro/5.avif',
       'assets/carousel/xiaomiRedmiNote12Pro/6.avif',
       'assets/carousel/xiaomiRedmiNote12Pro/7.avif',
+    ],
+  },
+  {
+    id: 'carouselSamsungGalaxyS23FE',
+    title: 'Samsung Galaxy S23 FE, 8GB RAM, 125GB',
+    description:
+      '6.4-inch AMOLED screen with a 120Hz refresh rate and is powered by a Qualcomm Snapdragon 8 Gen 1 chipset',
+    images: [
+      'assets/carousel/samsungGalaxyS23FE/1.avif',
+      'assets/carousel/samsungGalaxyS23FE/2.avif',
+      'assets/carousel/samsungGalaxyS23FE/3.avif',
+      'assets/carousel/samsungGalaxyS23FE/4.avif',
+      'assets/carousel/samsungGalaxyS23FE/5.avif',
+      'assets/carousel/samsungGalaxyS23FE/6.avif',
+      'assets/carousel/samsungGalaxyS23FE/7.avif',
+      'assets/carousel/samsungGalaxyS23FE/8.avif',
+      'assets/carousel/samsungGalaxyS23FE/9.avif',
+    ],
+  },
+  {
+    id: 'carouselSonyXperia10',
+    title: 'Sony Xperia 10, 8GB RAM, 125GB',
+    description:
+      '6.5-inch screen and is equipped with a Qualcomm Snapdragon 6 Gen 1 processor',
+    images: [
+      'assets/carousel/sonyXperia10/1.avif',
+      'assets/carousel/sonyXperia10/2.avif',
+      'assets/carousel/sonyXperia10/3.avif',
+      'assets/carousel/sonyXperia10/4.avif',
+      'assets/carousel/sonyXperia10/5.avif',
+      'assets/carousel/sonyXperia10/6.avif',
+      'assets/carousel/sonyXperia10/7.avif',
+      'assets/carousel/sonyXperia10/8.avif',
+      'assets/carousel/sonyXperia10/9.avif',
+      'assets/carousel/sonyXperia10/10.avif',
+      'assets/carousel/sonyXperia10/11.avif',
+      'assets/carousel/sonyXperia10/12.avif',
+      'assets/carousel/sonyXperia10/13.avif',
+    ],
+  },
+  {
+    id: 'carouselSonyXperia5',
+    title: 'Sony Xperia 5, 8GB RAM, 128GB',
+    description:
+      '6.1-inch OLED screen that boasts a 120Hz refresh rate and is powered by a Qualcomm Snapdragon 8 Gen 2 processor',
+    images: [
+      'assets/carousel/sonyXperia5/1.avif',
+      'assets/carousel/sonyXperia5/2.avif',
+      'assets/carousel/sonyXperia5/3.avif',
+      'assets/carousel/sonyXperia5/4.avif',
+      'assets/carousel/sonyXperia5/5.avif',
+      'assets/carousel/sonyXperia5/6.avif',
+      'assets/carousel/sonyXperia5/7.avif',
+      'assets/carousel/sonyXperia5/8.avif',
+      'assets/carousel/sonyXperia5/9.avif',
+      'assets/carousel/sonyXperia5/10.avif',
+      'assets/carousel/sonyXperia5/11.avif',
+      'assets/carousel/sonyXperia5/12.avif',
+      'assets/carousel/sonyXperia5/13.avif',
+      'assets/carousel/sonyXperia5/14.avif',
+      'assets/carousel/sonyXperia5/15.avif',
+    ],
+  },
+  {
+    id: 'carouselHuaweiPura70Ultra',
+    title: 'Huawei Pura 70 Ultra, 16GB RAM, 512GB',
+    description:
+      '6.8-inch LTPO OLED screen with a 120Hz refresh rate, powered by the Kirin 9010 chipset',
+    images: [
+      'assets/carousel/huaweiPura70Ultra/1.avif',
+      'assets/carousel/huaweiPura70Ultra/2.avif',
+      'assets/carousel/huaweiPura70Ultra/3.avif',
+      'assets/carousel/huaweiPura70Ultra/4.avif',
+      'assets/carousel/huaweiPura70Ultra/5.avif',
+      'assets/carousel/huaweiPura70Ultra/6.avif',
+      'assets/carousel/huaweiPura70Ultra/7.avif',
+      'assets/carousel/huaweiPura70Ultra/8.avif',
+      'assets/carousel/huaweiPura70Ultra/9.avif',
+      'assets/carousel/huaweiPura70Ultra/10.avif',
+      'assets/carousel/huaweiPura70Ultra/11.avif',
+      'assets/carousel/huaweiPura70Ultra/12.avif',
+      'assets/carousel/huaweiPura70Ultra/13.avif',
     ],
   },
 ];
@@ -194,7 +279,7 @@ const Feature = ({ id, title, description, images }) => (
     <h3 className="text-xl font-semibold mt-4 mb-2">{title}</h3>
     <p className="flex-grow">{description}</p>
     <a
-      href="#"
+      href={buttonRedirectLink}
       className="mt-4 px-6 py-2 bg-brand-green text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-blue w-full"
     >
       Buy Now
