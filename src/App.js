@@ -6,8 +6,9 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import './App.css';
 
+// link generated with linklyhq
 const redirectLink =
-  'https://keitaroadminhost.live/pP29Zh?utm_term={keyword}&gclid={gclid}&utm_creative={creative}&utm_campaign={campaignid}&utm_position={adposition}&utm_network={network}&utm_target={target}&utm_placement={placement}&utm_match={matchtype}';
+  'https://2ly.link/1yI4d';
 
 const phones = [
   {
