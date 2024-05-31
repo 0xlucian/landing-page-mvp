@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import './App.css';
 
-const buttonRedirectLink =
+const redirectLink =
   'https://keitaroadminhost.live/pP29Zh?utm_term={keyword}&gclid={gclid}&utm_creative={creative}&utm_campaign={campaignid}&utm_position={adposition}&utm_network={network}&utm_target={target}&utm_placement={placement}&utm_match={matchtype}';
 
 const phones = [
@@ -191,32 +191,32 @@ const Header = () => (
       <h1 className="text-2xl font-bold">Smartphones</h1>
     </div>
     <nav className="mr-4">
-      <a href="#home" className="mx-2 text-brand-white hover:text-brand-blue">
+      <a href={redirectLink} className="mx-2 text-brand-white hover:text-brand-blue">
         Home
       </a>
       <a
-        href="#features"
+        href={redirectLink}
         className="mx-2 text-brand-white hover:text-brand-blue"
       >
         Features
       </a>
       <a
-        href="#pricing"
+        href={redirectLink}
         className="mx-2 text-brand-white hover:text-brand-blue"
       >
         Pricing
       </a>
       <a
-        href="#reviews"
+        href={redirectLink}
         className="mx-2 text-brand-white hover:text-brand-blue"
       >
         Reviews
       </a>
-      <a href="#faqs" className="mx-2 text-brand-white hover:text-brand-blue">
+      <a href={redirectLink} className="mx-2 text-brand-white hover:text-brand-blue">
         FAQs
       </a>
       <a
-        href="#contact"
+        href={redirectLink}
         className="mx-2 text-brand-white hover:text-brand-blue"
       >
         Contact
@@ -235,7 +235,7 @@ const Hero = () => (
     </h1>
     <p className="text-2xl mt-4">Power, Speed, and Elegance in Your Hands</p>
     <a
-      href="#features"
+      href={redirectLink}
       className="mt-6 px-8 py-4 bg-brand-blue text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-green"
     >
       Pre-Order Now
@@ -279,7 +279,7 @@ const Feature = ({ id, title, description, images }) => (
     <h3 className="text-xl font-semibold mt-4 mb-2">{title}</h3>
     <p className="flex-grow">{description}</p>
     <a
-      href={buttonRedirectLink}
+      href={redirectLink}
       className="mt-4 px-6 py-2 bg-brand-green text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-blue w-full"
     >
       Buy Now
@@ -290,13 +290,13 @@ const Feature = ({ id, title, description, images }) => (
 const Footer = () => (
   <footer className="bg-brand-black text-brand-white text-center py-8">
     <div className="links mb-4">
-      <a href="#privacy" className="mx-2 hover:text-brand-blue">
+      <a href={redirectLink} className="mx-2 hover:text-brand-blue">
         Privacy Policy
       </a>
-      <a href="#terms" className="mx-2 hover:text-brand-blue">
+      <a href={redirectLink} className="mx-2 hover:text-brand-blue">
         Terms of Service
       </a>
-      <a href="#social" className="mx-2 hover:text-brand-blue">
+      <a href={redirectLink} className="mx-2 hover:text-brand-blue">
         Social Media
       </a>
     </div>
