@@ -306,7 +306,7 @@ const Footer = () => (
           type="email"
           placeholder="Your Email"
           required
-          className="p-2 rounded mr-2 border-none"
+          className="p-2 rounded mr-2 border-none text-gray-800"
         />
         <input
           type="submit"
