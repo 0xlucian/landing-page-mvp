@@ -7,8 +7,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import './App.css';
 
 // link generated with linklyhq
-const redirectLink =
-  'https://2ly.link/1yI4d';
+const redirectLink = 'https://2ly.link/1yI4d';
 
 const phones = [
   {
@@ -16,10 +15,10 @@ const phones = [
     title: 'Apple iPhone 15, 128GB, 5G, Blue',
     description: '6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G',
     images: [
-      'assets/carousel/iphone15/1.avif',
-      'assets/carousel/iphone15/2.avif',
-      'assets/carousel/iphone15/3.avif',
-      'assets/carousel/iphone15/4.avif',
+      '/assets/carousel/iphone15/1.avif',
+      '/assets/carousel/iphone15/2.avif',
+      '/assets/carousel/iphone15/3.avif',
+      '/assets/carousel/iphone15/4.avif',
     ],
   },
   {
@@ -27,11 +26,11 @@ const phones = [
     title: 'Apple iPhone 15 Pro, 256GB, 5G, Black Titanium',
     description: '6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G',
     images: [
-      'assets/carousel/iphone15ProBlack/1.avif',
-      'assets/carousel/iphone15ProBlack/2.avif',
-      'assets/carousel/iphone15ProBlack/3.avif',
-      'assets/carousel/iphone15ProBlack/4.avif',
-      'assets/carousel/iphone15ProBlack/5.avif',
+      '/assets/carousel/iphone15ProBlack/1.avif',
+      '/assets/carousel/iphone15ProBlack/2.avif',
+      '/assets/carousel/iphone15ProBlack/3.avif',
+      '/assets/carousel/iphone15ProBlack/4.avif',
+      '/assets/carousel/iphone15ProBlack/5.avif',
     ],
   },
   {
@@ -39,12 +38,12 @@ const phones = [
     title: 'Apple iPhone 15 Pro, 256GB, 5G, Natural Titanium',
     description: '6.1-inch OLED, Apple Bionic 16, 48MP + 12MP, 5G',
     images: [
-      'assets/carousel/iphone15ProNatural/1.avif',
-      'assets/carousel/iphone15ProNatural/2.avif',
-      'assets/carousel/iphone15ProNatural/3.avif',
-      'assets/carousel/iphone15ProNatural/4.avif',
-      'assets/carousel/iphone15ProNatural/5.avif',
-      'assets/carousel/iphone15ProNatural/6.avif',
+      '/assets/carousel/iphone15ProNatural/1.avif',
+      '/assets/carousel/iphone15ProNatural/2.avif',
+      '/assets/carousel/iphone15ProNatural/3.avif',
+      '/assets/carousel/iphone15ProNatural/4.avif',
+      '/assets/carousel/iphone15ProNatural/5.avif',
+      '/assets/carousel/iphone15ProNatural/6.avif',
     ],
   },
   {
@@ -53,11 +52,11 @@ const phones = [
     description:
       '6.7-inch OLED, 120Hz refresh rate, Apple A17 Pro, 48MP triple camera, 5G, 89.75% screen-to-body ratio',
     images: [
-      'assets/carousel/iphone15ProMax/1.avif',
-      'assets/carousel/iphone15ProMax/2.avif',
-      'assets/carousel/iphone15ProMax/3.avif',
-      'assets/carousel/iphone15ProMax/4.avif',
-      'assets/carousel/iphone15ProMax/5.avif',
+      '/assets/carousel/iphone15ProMax/1.avif',
+      '/assets/carousel/iphone15ProMax/2.avif',
+      '/assets/carousel/iphone15ProMax/3.avif',
+      '/assets/carousel/iphone15ProMax/4.avif',
+      '/assets/carousel/iphone15ProMax/5.avif',
     ],
   },
   {
@@ -65,15 +64,15 @@ const phones = [
     title: 'Samsung Galaxy A55, 256GB, 8GB RAM, 5G, Awesome Lemon',
     description: '6.6-inch AMOLED, 120Hz, 5000mAh battery, 5G, Compact size',
     images: [
-      'assets/carousel/samsungGalaxyA55/1.avif',
-      'assets/carousel/samsungGalaxyA55/2.avif',
-      'assets/carousel/samsungGalaxyA55/3.avif',
-      'assets/carousel/samsungGalaxyA55/4.avif',
-      'assets/carousel/samsungGalaxyA55/5.avif',
-      'assets/carousel/samsungGalaxyA55/6.avif',
-      'assets/carousel/samsungGalaxyA55/7.avif',
-      'assets/carousel/samsungGalaxyA55/8.avif',
-      'assets/carousel/samsungGalaxyA55/9.avif',
+      '/assets/carousel/samsungGalaxyA55/1.avif',
+      '/assets/carousel/samsungGalaxyA55/2.avif',
+      '/assets/carousel/samsungGalaxyA55/3.avif',
+      '/assets/carousel/samsungGalaxyA55/4.avif',
+      '/assets/carousel/samsungGalaxyA55/5.avif',
+      '/assets/carousel/samsungGalaxyA55/6.avif',
+      '/assets/carousel/samsungGalaxyA55/7.avif',
+      '/assets/carousel/samsungGalaxyA55/8.avif',
+      '/assets/carousel/samsungGalaxyA55/9.avif',
     ],
   },
   {
@@ -82,13 +81,13 @@ const phones = [
     description:
       '6.67-inch OLED, 120Hz, MediaTek Dimensity 1080, 5000mAh, 120W fast charging, triple camera, 5G',
     images: [
-      'assets/carousel/xiaomiRedmiNote12Pro/1.avif',
-      'assets/carousel/xiaomiRedmiNote12Pro/2.avif',
-      'assets/carousel/xiaomiRedmiNote12Pro/3.avif',
-      'assets/carousel/xiaomiRedmiNote12Pro/4.avif',
-      'assets/carousel/xiaomiRedmiNote12Pro/5.avif',
-      'assets/carousel/xiaomiRedmiNote12Pro/6.avif',
-      'assets/carousel/xiaomiRedmiNote12Pro/7.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/1.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/2.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/3.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/4.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/5.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/6.avif',
+      '/assets/carousel/xiaomiRedmiNote12Pro/7.avif',
     ],
   },
   {
@@ -97,15 +96,15 @@ const phones = [
     description:
       '6.4-inch AMOLED screen with a 120Hz refresh rate and is powered by a Qualcomm Snapdragon 8 Gen 1 chipset',
     images: [
-      'assets/carousel/samsungGalaxyS23FE/1.avif',
-      'assets/carousel/samsungGalaxyS23FE/2.avif',
-      'assets/carousel/samsungGalaxyS23FE/3.avif',
-      'assets/carousel/samsungGalaxyS23FE/4.avif',
-      'assets/carousel/samsungGalaxyS23FE/5.avif',
-      'assets/carousel/samsungGalaxyS23FE/6.avif',
-      'assets/carousel/samsungGalaxyS23FE/7.avif',
-      'assets/carousel/samsungGalaxyS23FE/8.avif',
-      'assets/carousel/samsungGalaxyS23FE/9.avif',
+      '/assets/carousel/samsungGalaxyS23FE/1.avif',
+      '/assets/carousel/samsungGalaxyS23FE/2.avif',
+      '/assets/carousel/samsungGalaxyS23FE/3.avif',
+      '/assets/carousel/samsungGalaxyS23FE/4.avif',
+      '/assets/carousel/samsungGalaxyS23FE/5.avif',
+      '/assets/carousel/samsungGalaxyS23FE/6.avif',
+      '/assets/carousel/samsungGalaxyS23FE/7.avif',
+      '/assets/carousel/samsungGalaxyS23FE/8.avif',
+      '/assets/carousel/samsungGalaxyS23FE/9.avif',
     ],
   },
   {
@@ -114,19 +113,19 @@ const phones = [
     description:
       '6.5-inch screen and is equipped with a Qualcomm Snapdragon 6 Gen 1 processor',
     images: [
-      'assets/carousel/sonyXperia10/1.avif',
-      'assets/carousel/sonyXperia10/2.avif',
-      'assets/carousel/sonyXperia10/3.avif',
-      'assets/carousel/sonyXperia10/4.avif',
-      'assets/carousel/sonyXperia10/5.avif',
-      'assets/carousel/sonyXperia10/6.avif',
-      'assets/carousel/sonyXperia10/7.avif',
-      'assets/carousel/sonyXperia10/8.avif',
-      'assets/carousel/sonyXperia10/9.avif',
-      'assets/carousel/sonyXperia10/10.avif',
-      'assets/carousel/sonyXperia10/11.avif',
-      'assets/carousel/sonyXperia10/12.avif',
-      'assets/carousel/sonyXperia10/13.avif',
+      '/assets/carousel/sonyXperia10/1.avif',
+      '/assets/carousel/sonyXperia10/2.avif',
+      '/assets/carousel/sonyXperia10/3.avif',
+      '/assets/carousel/sonyXperia10/4.avif',
+      '/assets/carousel/sonyXperia10/5.avif',
+      '/assets/carousel/sonyXperia10/6.avif',
+      '/assets/carousel/sonyXperia10/7.avif',
+      '/assets/carousel/sonyXperia10/8.avif',
+      '/assets/carousel/sonyXperia10/9.avif',
+      '/assets/carousel/sonyXperia10/10.avif',
+      '/assets/carousel/sonyXperia10/11.avif',
+      '/assets/carousel/sonyXperia10/12.avif',
+      '/assets/carousel/sonyXperia10/13.avif',
     ],
   },
   {
@@ -135,21 +134,21 @@ const phones = [
     description:
       '6.1-inch OLED screen that boasts a 120Hz refresh rate and is powered by a Qualcomm Snapdragon 8 Gen 2 processor',
     images: [
-      'assets/carousel/sonyXperia5/1.avif',
-      'assets/carousel/sonyXperia5/2.avif',
-      'assets/carousel/sonyXperia5/3.avif',
-      'assets/carousel/sonyXperia5/4.avif',
-      'assets/carousel/sonyXperia5/5.avif',
-      'assets/carousel/sonyXperia5/6.avif',
-      'assets/carousel/sonyXperia5/7.avif',
-      'assets/carousel/sonyXperia5/8.avif',
-      'assets/carousel/sonyXperia5/9.avif',
-      'assets/carousel/sonyXperia5/10.avif',
-      'assets/carousel/sonyXperia5/11.avif',
-      'assets/carousel/sonyXperia5/12.avif',
-      'assets/carousel/sonyXperia5/13.avif',
-      'assets/carousel/sonyXperia5/14.avif',
-      'assets/carousel/sonyXperia5/15.avif',
+      '/assets/carousel/sonyXperia5/1.avif',
+      '/assets/carousel/sonyXperia5/2.avif',
+      '/assets/carousel/sonyXperia5/3.avif',
+      '/assets/carousel/sonyXperia5/4.avif',
+      '/assets/carousel/sonyXperia5/5.avif',
+      '/assets/carousel/sonyXperia5/6.avif',
+      '/assets/carousel/sonyXperia5/7.avif',
+      '/assets/carousel/sonyXperia5/8.avif',
+      '/assets/carousel/sonyXperia5/9.avif',
+      '/assets/carousel/sonyXperia5/10.avif',
+      '/assets/carousel/sonyXperia5/11.avif',
+      '/assets/carousel/sonyXperia5/12.avif',
+      '/assets/carousel/sonyXperia5/13.avif',
+      '/assets/carousel/sonyXperia5/14.avif',
+      '/assets/carousel/sonyXperia5/15.avif',
     ],
   },
   {
@@ -158,19 +157,19 @@ const phones = [
     description:
       '6.8-inch LTPO OLED screen with a 120Hz refresh rate, powered by the Kirin 9010 chipset',
     images: [
-      'assets/carousel/huaweiPura70Ultra/1.avif',
-      'assets/carousel/huaweiPura70Ultra/2.avif',
-      'assets/carousel/huaweiPura70Ultra/3.avif',
-      'assets/carousel/huaweiPura70Ultra/4.avif',
-      'assets/carousel/huaweiPura70Ultra/5.avif',
-      'assets/carousel/huaweiPura70Ultra/6.avif',
-      'assets/carousel/huaweiPura70Ultra/7.avif',
-      'assets/carousel/huaweiPura70Ultra/8.avif',
-      'assets/carousel/huaweiPura70Ultra/9.avif',
-      'assets/carousel/huaweiPura70Ultra/10.avif',
-      'assets/carousel/huaweiPura70Ultra/11.avif',
-      'assets/carousel/huaweiPura70Ultra/12.avif',
-      'assets/carousel/huaweiPura70Ultra/13.avif',
+      '/assets/carousel/huaweiPura70Ultra/1.avif',
+      '/assets/carousel/huaweiPura70Ultra/2.avif',
+      '/assets/carousel/huaweiPura70Ultra/3.avif',
+      '/assets/carousel/huaweiPura70Ultra/4.avif',
+      '/assets/carousel/huaweiPura70Ultra/5.avif',
+      '/assets/carousel/huaweiPura70Ultra/6.avif',
+      '/assets/carousel/huaweiPura70Ultra/7.avif',
+      '/assets/carousel/huaweiPura70Ultra/8.avif',
+      '/assets/carousel/huaweiPura70Ultra/9.avif',
+      '/assets/carousel/huaweiPura70Ultra/10.avif',
+      '/assets/carousel/huaweiPura70Ultra/11.avif',
+      '/assets/carousel/huaweiPura70Ultra/12.avif',
+      '/assets/carousel/huaweiPura70Ultra/13.avif',
     ],
   },
 ];
@@ -229,7 +228,7 @@ const Header = () => (
 const Hero = () => (
   <div
     className="hero bg-cover bg-center h-80vh flex flex-col justify-center items-center text-center text-brand-white grow"
-    style={{ backgroundImage: "url('assets/hero.jpg')" }}
+    style={{ backgroundImage: "url('/assets/hero.jpg')" }}
   >
     <h1 className="text-5xl font-bold">
       Introducing the Future of Mobile Technology
