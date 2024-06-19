@@ -7,6 +7,8 @@ import Footer from './components/Footer';
 import PhoneDetails from './components/PhoneDetails';
 import FAQsPage from './pages/FAQsPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+import TermsOfServicePage from './pages/TermsOfServicePage';
 import './App.css';
 
 const App = () => {
@@ -19,6 +21,8 @@ const App = () => {
           <Route path="/phone/:id" element={<PhoneDetails />} />
           <Route path="/faqs" element={<FAQsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+          <Route path="/terms-of-service" element={<TermsOfServicePage />} />
         </Routes>
         <Footer />
       </div>
