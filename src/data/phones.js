@@ -5,6 +5,7 @@ const phones = [
     id: 'iphone15-128gb-5g-blue',
     title: 'Apple iPhone 15, 128GB, 5G',
     description: 'O iPhone 15 Plus possui uma tela OLED de 6,7 polegadas e é alimentado pelo chip Apple Bionic 16. Ele conta com um sistema de câmera dupla na traseira, consistindo de uma câmera principal de 48MP e um sensor ultra grande angular de 12MP.',
+    shortDescription: 'Azul Tela OLED de 6,1 polegadas, Apple Bionic 16, 48MP + 12MP, 5G',
     characteristics: {
       prós: ['Oferece uma alta relação tela-corpo de 88,16%'],
       tecnologia: ['2G', '3G', '4G', '5G'],
@@ -21,8 +22,9 @@ const phones = [
   },
   {
     id: 'iphone15-pro-256gb-5g-black-titanium',
-    title: 'Apple iPhone 15 Pro, 256GB, 5G, Black Titanium',
+    title: 'Apple iPhone 15 Pro, 256GB, 5G',
     description: 'O iPhone 15 Pro está equipado com uma tela OLED de 6,1 polegadas com taxa de atualização de 120Hz e é alimentado pelo processador A17 Pro da Apple. Ele possui uma configuração de câmera tripla na traseira, incluindo uma câmera principal de 48MP.',
+    shortDescription: 'Titânio Preto Tela OLED de 6,1 polegadas, Apple Bionic 16, 48MP + 12MP, 5G',
     characteristics: {
       prós: ['Apresenta uma alta taxa de atualização de 120Hz para visuais mais suaves', 'Capaz de conectividade 5G', 'Possui uma alta relação tela-corpo de 88,23%'],
       conectividade: ['Bluetooth', 'Wi-Fi', 'GPS', 'NFC', 'Carregamento sem fio'],
@@ -41,8 +43,9 @@ const phones = [
   },
   {
     id: 'iphone15-pro-256gb-5g-natural-titanium',
-    title: 'Apple iPhone 15 Pro, 256GB, 5G, Natural Titanium',
+    title: 'Apple iPhone 15 Pro, 256GB, 5G',
     description: 'O iPhone 15 Pro está equipado com uma tela OLED de 6,1 polegadas com taxa de atualização de 120Hz e é alimentado pelo processador A17 Pro da Apple. Ele possui uma configuração de câmera tripla na traseira, incluindo uma câmera principal de 48MP.',
+    shortDescription: 'Titânio Natural Tela OLED de 6,1 polegadas, Apple Bionic 16, 48MP + 12MP, 5G',
     characteristics: {
       prós: ['Apresenta uma alta taxa de atualização de 120Hz para visuais mais suaves', 'Capaz de conectividade 5G', 'Possui uma alta relação tela-corpo de 88,23%'],
       conectividade: ['Bluetooth', 'Wi-Fi', 'GPS', 'NFC', 'Carregamento sem fio'],
@@ -64,6 +67,7 @@ const phones = [
     id: 'iphone15-pro-max',
     title: 'Apple iPhone 15 Pro Max',
     description: 'O iPhone 15 Pro Max possui uma tela OLED de 6,1 polegadas alimentada pelo chip Apple Bionic 16. Inclui um sistema de câmera dupla na traseira, equipado com uma câmera principal de 48MP e um sensor ultra grande angular de 12MP.',
+    shortDescription: 'Tela OLED de 6,7 polegadas, taxa de atualização de 120Hz, Apple A17 Pro, câmera tripla de 48MP, 5G, relação tela-corpo de 89,75%',
     characteristics: {
       prós: ['Equipado para conectividade 5G', 'Oferece uma substancial relação tela-corpo de 86,38%'],
       sensores: ['Acelerômetro', 'Barômetro', 'Giroscópio', 'Reconhecimento facial', 'Sensor de proximidade', 'Sensor de luz'],
@@ -81,8 +85,9 @@ const phones = [
   },
   {
     id: 'samsung-galaxy-a55',
-    title: 'Samsung Galaxy A55, 256GB, 8GB RAM, 5G, Awesome Lime',
+    title: 'Samsung Galaxy A55, 256GB, 8GB RAM, 5G',
     description: 'O Samsung Galaxy A55 5G possui uma tela AMOLED de 6,6 polegadas com taxa de atualização de 120Hz e está equipado com uma bateria de 5000mAh.',
+    shortDescription: 'Lemon Fantástico Tela AMOLED de 6,6 polegadas, 120Hz, bateria de 5000mAh, 5G, tamanho compacto',
     characteristics: {
       prós: ['Oferece uma tela suave de 120Hz para visuais aprimorados', 'Suporta conectividade 5G', 'Construção compacta medindo 6,34 x 3,05 x 0,00 polegadas'],
       sensores: ['Acelerômetro', 'Giroscópio', 'Leitor de impressões digitais', 'Sensor de proximidade', 'Sensor geomagnético'],
@@ -100,8 +105,9 @@ const phones = [
   },
   {
     id: 'xiaomi-redmi-note-12-pro',
-    title: 'Xiaomi Redmi Note 12 Pro+, 8GB RAM, 256GB, Onyx Black',
+    title: 'Xiaomi Redmi Note 12 Pro+, 8GB RAM, 256GB',
     description: 'O Xiaomi Redmi 12 Pro+ possui uma tela OLED de 6,67 polegadas com taxa de atualização de 120Hz, alimentado pelo processador MediaTek Dimensity 1080. Ele possui uma bateria de 5000mAh capaz de carregamento rápido de 120W e uma configuração de câmera tripla na traseira.',
+    shortDescription: 'Preto Ônix Tela OLED de 6,67 polegadas, 120Hz, MediaTek Dimensity 1080, 5000mAh, carregamento rápido de 120W, câmera tripla, 5G',
     characteristics: {
       prós: ['Apresenta uma rápida taxa de atualização de 120Hz para visuais suaves', 'Compatível com redes 5G', 'Oferece uma alta relação tela-corpo de 86,87%'],
       conectividade: ['Bluetooth', 'Wi-Fi', 'GPS', 'NFC'],
@@ -125,6 +131,7 @@ const phones = [
     id: 'samsung-galaxy-s23-fe',
     title: 'Samsung Galaxy S23 FE, 8GB RAM, 125GB',
     description: 'O Samsung Galaxy S23 FE está equipado com uma tela AMOLED de 6,4 polegadas com taxa de atualização de 120Hz e roda no chipset Qualcomm Snapdragon 8 Gen 1. Outras especificações incluem uma bateria de 4500mAh com carregamento rápido de 25W e um sistema de câmera tripla na traseira.',
+    shortDescription: 'Tela AMOLED de 6,4 polegadas com taxa de atualização de 120Hz, alimentado pelo chipset Qualcomm Snapdragon 8 Gen 1',
     characteristics: {
       prós: ['Oferece uma alta taxa de atualização de 120Hz para visuais suaves', 'Preparado para capacidades de rede 5G'],
       sensores: ['Acelerômetro', 'Barômetro', 'Giroscópio', 'Leitor de impressões digitais', 'Sensor de proximidade', 'Sensor geomagnético'],
@@ -149,6 +156,7 @@ const phones = [
     id: 'sony-xperia-10',
     title: 'Sony Xperia 10, 8GB RAM, 125GB',
     description: 'O Sony Xperia 10 VI está equipado com uma tela de 6,5 polegadas e roda no processador Qualcomm Snapdragon 6 Gen 1. Ele possui uma bateria de 5000mAh e um sistema de câmera dupla na traseira.',
+    shortDescription: 'Tela de 6,5 polegadas e equipado com processador Qualcomm Snapdragon 6 Gen 1',
     characteristics: {
       prós: ['Preparado para conectividade 5G', 'Tamanho compacto, medindo 6,10 x 2,68 x 0,00 polegadas'],
       sensores: ['Acelerômetro', 'Leitor de impressões digitais', 'Bússola', 'Sensor de proximidade'],
@@ -177,6 +185,7 @@ const phones = [
     id: 'sony-xperia-5',
     title: 'Sony Xperia 5, 8GB RAM, 128GB',
     description: 'O Sony Xperia 5 V possui uma tela OLED de 6,1 polegadas com taxa de atualização de 120Hz, alimentado pelo processador Qualcomm Snapdragon 8 Gen 2. Ele também vem equipado com uma bateria de 5000mAh e um sistema de câmera dupla na traseira.',
+    shortDescription: 'Tela OLED de 6,1 polegadas com taxa de atualização de 120Hz e alimentado pelo processador Qualcomm Snapdragon 8 Gen 2',
     characteristics: {
       prós: ['Possui uma alta taxa de atualização de 120Hz para visuais fluidos', 'Preparado para redes 5G', 'Inclui capacidade de carregamento sem fio'],
       conectividade: ['Bluetooth', 'Wi-Fi', 'GPS', 'NFC'],
@@ -209,6 +218,7 @@ const phones = [
     id: 'huawei-pura-70-ultra',
     title: 'Huawei Pura 70 Ultra, 16GB RAM, 512GB',
     description: 'O Huawei Pura 70 Ultra está equipado com uma tela LTPO OLED de 6,8 polegadas que oferece uma taxa de atualização de 120Hz e roda no processador Kirin 9010. O dispositivo inclui uma bateria de 5200mAh capaz de carregamento rápido de 100W e possui uma configuração de câmera tripla na traseira.',
+    shortDescription: 'Tela LTPO OLED de 6,8 polegadas com taxa de atualização de 120Hz, alimentado pelo chipset Kirin 9010',
     characteristics: {
       prós: ['Apresenta uma rápida taxa de atualização de 120Hz para um desempenho de display mais suave', 'Oferece uma alta relação tela-corpo de 91,35%', 'Capacidade de carregamento sem fio'],
       conectividade: ['Bluetooth', 'Wi-Fi', 'GPS', 'NFC'],
