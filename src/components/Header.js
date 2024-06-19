@@ -5,7 +5,7 @@ const Header = () => (
   <header className="bg-brand-black text-brand-white py-4 flex justify-between items-center">
     <div className="logo ml-4">
       <Link to="/">
-        <h1 className="text-2xl font-bold text-brand-white">Smartphones</h1>
+        <h1 className="text-2xl font-bold text-brand-white">Fonefalou</h1>
       </Link>
     </div>
     <nav className="mr-4">
