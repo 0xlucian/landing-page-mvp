@@ -2,44 +2,44 @@ import React from 'react';
 
 const TermsOfServicePage = () => (
   <div className="p-8 bg-white text-gray-800">
-    <h2 className="text-3xl font-bold mb-6">Terms of Service</h2>
+    <h2 className="text-3xl font-bold mb-6">Termos de Serviço</h2>
     <p className="mb-4">
-      Welcome to Smartphones, a vibrant social networking platform dedicated to consumer electronic enthusiasts. Smartphones offers its services under these Terms of Service ("TOS"), which you accept and agree to be bound by using this Website or viewing its content. This constitutes a legally binding agreement between you and Smartphones, so please review these terms carefully. If you disagree with any part of the TOS, you should discontinue use of Smartphones.
+      Bem-vindo ao Smartphones, uma vibrante plataforma de rede social dedicada aos entusiastas de eletrônicos de consumo. A Smartphones oferece seus serviços sob estes Termos de Serviço ("TOS"), que você aceita e concorda em cumprir ao usar este Website ou visualizar seu conteúdo. Isso constitui um acordo juridicamente vinculativo entre você e a Smartphones, portanto, reveja esses termos cuidadosamente. Se você discordar de qualquer parte dos TOS, você deve interromper o uso da Smartphones.
     </p>
-    <h3 className="text-xl font-semibold mb-2">Eligibility</h3>
+    <h3 className="text-xl font-semibold mb-2">Elegibilidade</h3>
     <p className="mb-4">
-      To use this Website, you must be at least 16 years old. If you are under 16, please do not attempt to register or provide any personal information about yourself to us. We reserve the right to delete your account and any content you have posted if we believe you are under 16.
+      Para usar este Website, você deve ter pelo menos 16 anos de idade. Se você tiver menos de 16 anos, por favor, não tente se registrar ou fornecer qualquer informação pessoal sobre você para nós. Reservamo-nos o direito de excluir sua conta e qualquer conteúdo que você tenha postado se acreditarmos que você tem menos de 16 anos.
     </p>
-    <h3 className="text-xl font-semibold mb-2">Your Account</h3>
+    <h3 className="text-xl font-semibold mb-2">Sua Conta</h3>
     <p className="mb-4">
-      You will need to create an account, involving setting up login credentials by choosing a password and providing an email address, or connecting through a third-party account like Facebook or Google. When creating your account, it is essential that you provide accurate and complete information. Impersonating someone else or providing false information may lead to your account being suspended.
+      Você precisará criar uma conta, o que envolve configurar credenciais de login escolhendo uma senha e fornecendo um endereço de e-mail, ou conectando-se através de uma conta de terceiros como Facebook ou Google. Ao criar sua conta, é essencial que você forneça informações precisas e completas. Personificar outra pessoa ou fornecer informações falsas pode levar à suspensão da sua conta.
     </p>
     <p className="mb-4">
-      If you create an account, you are responsible for maintaining the security of your account and you are fully responsible for all activities that occur under the account. Should any unauthorized use of your account occur, you must inform us immediately. Smartphones reserves the right to close your account at any time for any or no reason.
+      Se você criar uma conta, você é responsável por manter a segurança da sua conta e é totalmente responsável por todas as atividades que ocorrerem sob a conta. Caso ocorra qualquer uso não autorizado da sua conta, você deve nos informar imediatamente. A Smartphones reserva-se o direito de fechar sua conta a qualquer momento, por qualquer motivo ou sem motivo.
     </p>
-    <h3 className="text-xl font-semibold mb-2">License for Personal Use</h3>
+    <h3 className="text-xl font-semibold mb-2">Licença para Uso Pessoal</h3>
     <p className="mb-4">
-      Smartphones grants you a limited license to access and make personal use of this Website but not to download or modify it, or any portion of it, except with express written consent of Smartphones. This license does not include any resale or commercial use of this Website or its contents; any collection and use of any product listings, descriptions, or prices; any derivative use of this Website or its contents; any downloading or copying of account information for the benefit of another merchant; or any use of data mining, robots, or similar data gathering and extraction tools.
+      A Smartphones concede a você uma licença limitada para acessar e fazer uso pessoal deste Website, mas não para baixá-lo ou modificá-lo, ou qualquer parte dele, exceto com o consentimento expresso por escrito da Smartphones. Esta licença não inclui qualquer revenda ou uso comercial deste Website ou de seu conteúdo; qualquer coleta e uso de listas de produtos, descrições ou preços; qualquer uso derivado deste Website ou de seu conteúdo; qualquer download ou cópia de informações de conta para benefício de outro comerciante; ou qualquer uso de mineração de dados, robôs ou ferramentas semelhantes de coleta e extração de dados.
     </p>
-    <h3 className="text-xl font-semibold mb-2">User-Generated Content</h3>
+    <h3 className="text-xl font-semibold mb-2">Conteúdo Gerado pelo Usuário</h3>
     <p className="mb-4">
-      As a user, you may submit content, including text, images, and videos. While we do not guarantee any confidentiality regarding your User-Generated Content, it will not be liable for any use or disclosure of your content. You are responsible for the legality and appropriateness of any content you submit.
+      Como usuário, você pode enviar conteúdo, incluindo texto, imagens e vídeos. Embora não garantamos nenhuma confidencialidade em relação ao seu Conteúdo Gerado pelo Usuário, não seremos responsáveis por qualquer uso ou divulgação do seu conteúdo. Você é responsável pela legalidade e adequação de qualquer conteúdo que enviar.
     </p>
-    <h3 className="text-xl font-semibold mb-2">Prohibited Actions</h3>
+    <h3 className="text-xl font-semibold mb-2">Ações Proibidas</h3>
     <p className="mb-4">
-      You are prohibited from using the Website to engage in any illegal, misleading, malicious, or discriminatory activity, to infringe or violate someone else's rights, or to transmit spam or malicious content. Violation of these prohibitions may lead to your account being terminated.
+      Você está proibido de usar o Website para se envolver em qualquer atividade ilegal, enganosa, maliciosa ou discriminatória, infringir ou violar os direitos de outra pessoa ou transmitir spam ou conteúdo malicioso. A violação dessas proibições pode levar ao encerramento da sua conta.
     </p>
-    <h3 className="text-xl font-semibold mb-2">Changes to the Terms</h3>
+    <h3 className="text-xl font-semibold mb-2">Alterações nos Termos</h3>
     <p className="mb-4">
-      Smartphones reserves the right to make changes to these TOS from time to time without specific notice to you. Continued use of the Website after such changes constitutes your consent to the changes.
+      A Smartphones reserva-se o direito de fazer alterações a estes TOS de tempos em tempos sem aviso específico a você. O uso continuado do Website após tais alterações constitui seu consentimento às mudanças.
     </p>
-    <h3 className="text-xl font-semibold mb-2">Contact Us</h3>
+    <h3 className="text-xl font-semibold mb-2">Contate-nos</h3>
     <p className="mb-4">
-      If you have any questions regarding these Terms of Service, please contact us through the information provided on our website.
+      Se você tiver qualquer dúvida sobre estes Termos de Serviço, por favor, entre em contato conosco através das informações fornecidas em nosso website.
     </p>
-    <h3 className="text-xl font-semibold mb-2">Conclusion</h3>
+    <h3 className="text-xl font-semibold mb-2">Conclusão</h3>
     <p>
-      By using our website, you acknowledge that you have read and agreed to these Terms of Service.
+      Ao usar nosso website, você reconhece que leu e concorda com estes Termos de Serviço.
     </p>
   </div>
 );

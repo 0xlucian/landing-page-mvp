@@ -56,7 +56,7 @@ const PhoneDetails = () => {
         </Swiper>
       </div>
       <div className="phone-detail-characteristics mb-8">
-        <h2 className="text-2xl font-semibold mb-4">Characteristics</h2>
+        <h2 className="text-2xl font-semibold mb-4">Características</h2>
         <ul className="list-disc pl-5">
           {Object.keys(characteristics).map((key) => (
             <li key={key} className="text-lg mb-2">

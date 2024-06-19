@@ -5,32 +5,38 @@ const FAQsPage = () => (
     <h1 className="text-3xl font-bold text-center mb-8">FAQs</h1>
     <div className="text-lg">
       <p className="mb-4">
-        💬 <strong>We're here to help and answer any questions you might have.</strong> We look forward to hearing from you!
+        💬 <strong>Estamos aqui para ajudar e responder a quaisquer perguntas que você possa ter.</strong> Estamos ansiosos para ouvir de você!
       </p>
       <p className="mb-6">
-        📧 <strong>For sales inquiries:</strong> Please email us at <a href="mailto:sales@fonefalou.com" className="text-brand-blue hover:underline">sales@fonefalou.com</a>
+        📧 <strong>Para consultas de vendas:</strong> Por favor envie um e-mail para <a href="mailto:sales@fonefalou.com" className="text-brand-blue hover:underline">sales@fonefalou.com</a>
       </p>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold">🕒 Response Time</h3>
+        <h3 className="text-xl font-semibold">🕒 Tempo de Resposta</h3>
         <p>
-          Our team is dedicated to providing you with a timely response. We strive to answer all emails within 24-48 hours. Thank you for your patience!
+          Nossa equipe está dedicada a fornecer uma resposta oportuna. Nos esforçamos para responder a todos os e-mails dentro de 24-48 horas. Obrigado pela sua paciência!
         </p>
       </div>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold">💌 Why Email?</h3>
+        <h3 className="text-xl font-semibold">💌 Por Que E-mail?</h3>
         <p>
-          We choose email to ensure that we can provide thoughtful, comprehensive responses. It also allows us to keep a detailed record of our conversations with you, ensuring that we continually improve our service.
+          Escolhemos o e-mail para garantir que possamos fornecer respostas ponderadas e abrangentes. Isso também nos permite manter um registro detalhado de nossas conversas com você, garantindo que continuamente melhoremos nosso serviço.
         </p>
       </div>
       <div className="mb-6">
-        <h3 className="text-xl font-semibold">⚠️ Need Immediate Help?</h3>
+        <h3 className="text-xl font-semibold">⚠️ Precisa de Ajuda Imediata?</h3>
         <p>
-          If your query is urgent, please mention <strong>"URGENT"</strong> in your email subject line, and we will prioritize your request.
+          Se sua consulta for urgente, por favor mencione <strong>"URGENTE"</strong> na linha de assunto do seu e-mail, e nós priorizaremos sua solicitação.
         </p>
       </div>
       <p>
-        📣 <strong>Your feedback is important to us.</strong> If there’s anything more you’d like to know about our products or services, please don’t hesitate to reach out. Please let us know how we can improve your experience.
+        📣 <strong>Seu feedback é importante para nós.</strong> Se houver algo mais que você gostaria de saber sobre nossos produtos ou serviços, não hesite em entrar em contato. Por favor, nos informe como podemos melhorar sua experiência.
       </p>
+      <div className="mt-6">
+        <h3 className="text-xl font-semibold">• Contate-nos</h3>
+        <p>
+          Para todos os tipos de consultas, perguntas/ofertas, verificação de documentos, por favor envie um e-mail para <a href="mailto:support@fonefalou.com" className="text-brand-blue hover:underline">support@fonefalou.com</a> e mencione seu nome e ID da conta no assunto.
+        </p>
+      </div>
     </div>
   </div>
 );

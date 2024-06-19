@@ -38,8 +38,8 @@ const Feature = ({ id, title, description, images }) => (
     </Swiper>
     <h3 className="text-xl font-semibold mt-4 mb-2">{title}</h3>
     <p className="flex-grow">{description}</p>
-    <Link to={`/phone/${id}`} className="mt-4 px-6 py-2 bg-brand-green text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-blue w-full">Learn More</Link>
-  </div>
+    <Link to={`/phone/${id}`} className="mt-4 px-6 py-2 bg-brand-green text-brand-white font-semibold rounded-lg shadow-md hover:bg-brand-blue w-full">Saiba Mais</Link>
+    </div>
 );
 
 export default Features;

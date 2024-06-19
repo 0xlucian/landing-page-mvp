@@ -2,54 +2,54 @@ import React from 'react';
 
 const PrivacyPolicyPage = () => (
   <div className="p-8 bg-white text-gray-800">
-    <h2 className="text-3xl font-bold mb-6">Privacy Policy</h2>
+    <h2 className="text-3xl font-bold mb-6">Política de Privacidade</h2>
     <p className="mb-4">
-      Welcome to your go-to source for the latest and greatest in smartphone technology. We are committed to protecting the privacy and security of our customers' personal information. This Privacy Policy outlines the types of information we collect, how it is used, and the measures we take to protect it.
+      Bem-vindo à sua fonte de referência para as mais recentes e melhores tecnologias de smartphones. Estamos comprometidos em proteger a privacidade e a segurança das informações pessoais de nossos clientes. Esta Política de Privacidade descreve os tipos de informações que coletamos, como são usadas e as medidas que tomamos para protegê-las.
     </p>
-    <h3 className="text-xl font-semibold mb-2">1. Information Collection</h3>
+    <h3 className="text-xl font-semibold mb-2">1. Coleta de Informações</h3>
     <p className="mb-4">
-      When you visit our website, we may collect the following types of information:
+      Quando você visita nosso site, podemos coletar os seguintes tipos de informações:
       <ul className="list-disc list-inside">
-        <li>Personal Information: This includes your name, address, email address, phone number, and other personal details you provide when you make a purchase or sign up for our newsletter.</li>
-        <li>Payment Information: We collect payment information necessary for processing transactions but do not store credit card details on our servers.</li>
-        <li>Usage Data: We gather data about how you interact with our website, including the pages you visit, the time spent on those pages, and other relevant statistics.</li>
+        <li>Informações Pessoais: Isso inclui seu nome, endereço, endereço de e-mail, número de telefone e outros detalhes pessoais que você fornece ao fazer uma compra ou se inscrever em nosso boletim informativo.</li>
+        <li>Informações de Pagamento: Coletamos informações de pagamento necessárias para processar transações, mas não armazenamos os detalhes do cartão de crédito em nossos servidores.</li>
+        <li>Dados de Uso: Coletamos dados sobre como você interage com nosso site, incluindo as páginas que você visita, o tempo gasto nessas páginas e outras estatísticas relevantes.</li>
       </ul>
     </p>
-    <h3 className="text-xl font-semibold mb-2">2. Use of Information</h3>
+    <h3 className="text-xl font-semibold mb-2">2. Uso das Informações</h3>
     <p className="mb-4">
-      The information we collect is used for the following purposes:
+      As informações que coletamos são usadas para os seguintes propósitos:
       <ul className="list-disc list-inside">
-        <li>To process transactions and deliver the products you have purchased.</li>
-        <li>To improve our website and tailor it to your preferences.</li>
-        <li>To communicate with you about orders, products, services, and promotional offers.</li>
-        <li>To update our records and maintain your accounts with us.</li>
-        <li>To prevent or detect fraud or abuses of our website.</li>
+        <li>Para processar transações e entregar os produtos que você comprou.</li>
+        <li>Para melhorar nosso site e adaptá-lo às suas preferências.</li>
+        <li>Para comunicar com você sobre pedidos, produtos, serviços e ofertas promocionais.</li>
+        <li>Para atualizar nossos registros e manter suas contas conosco.</li>
+        <li>Para prevenir ou detectar fraudes ou abusos em nosso site.</li>
       </ul>
     </p>
-    <h3 className="text-xl font-semibold mb-2">3. Information Sharing</h3>
+    <h3 className="text-xl font-semibold mb-2">3. Compartilhamento de Informações</h3>
     <p className="mb-4">
-      We do not sell, trade, or otherwise transfer your personally identifiable information to outside parties except in the following circumstances:
+      Não vendemos, trocamos ou transferimos suas informações pessoais identificáveis para terceiros, exceto nas seguintes circunstâncias:
       <ul className="list-disc list-inside">
-        <li>To third-party service providers that assist us in operating our website, conducting our business, or serving our users.</li>
-        <li>When required by law to comply with legal proceedings, such as a court order or subpoena.</li>
-        <li>To protect the rights, property, or safety of our customers, or others.</li>
+        <li>Para prestadores de serviços terceirizados que nos auxiliam na operação do nosso site, na condução dos nossos negócios ou no atendimento aos nossos usuários.</li>
+        <li>Quando exigido por lei para cumprir processos legais, como uma ordem judicial ou intimação.</li>
+        <li>Para proteger os direitos, propriedade ou segurança de nossos clientes ou de terceiros.</li>
       </ul>
     </p>
-    <h3 className="text-xl font-semibold mb-2">4. Data Security</h3>
+    <h3 className="text-xl font-semibold mb-2">4. Segurança dos Dados</h3>
     <p className="mb-4">
-      We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. These security measures include password-protected directories and databases to safeguard your information, SSL (Secure Sockets Layered) technology to ensure that your information is fully encrypted and sent across the Internet securely.
+      Implementamos uma variedade de medidas de segurança para manter a segurança de suas informações pessoais quando você faz um pedido ou insere, envia ou acessa suas informações pessoais. Essas medidas de segurança incluem diretórios e bancos de dados protegidos por senha para salvaguardar suas informações, tecnologia SSL (Secure Sockets Layer) para garantir que suas informações sejam totalmente criptografadas e enviadas pela Internet de forma segura.
     </p>
-    <h3 className="text-xl font-semibold mb-2">5. Third-Party Links</h3>
+    <h3 className="text-xl font-semibold mb-2">5. Links de Terceiros</h3>
     <p className="mb-4">
-      Occasionally, at our discretion, we may include or offer third-party products or services on our website. These third-party sites have separate and independent privacy policies. We, therefore, have no responsibility or liability for the content and activities of these linked sites.
+      Ocasionalmente, a nosso critério, podemos incluir ou oferecer produtos ou serviços de terceiros em nosso site. Esses sites de terceiros têm políticas de privacidade separadas e independentes. Portanto, não temos responsabilidade ou obrigação pelo conteúdo e atividades desses sites vinculados.
     </p>
-    <h3 className="text-xl font-semibold mb-2">6. Changes to This Privacy Policy</h3>
+    <h3 className="text-xl font-semibold mb-2">6. Alterações a Esta Política de Privacidade</h3>
     <p className="mb-4">
-      We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website.
+      Reservamo-nos o direito de modificar esta política de privacidade a qualquer momento, portanto, revise-a frequentemente. Alterações e esclarecimentos entrarão em vigor imediatamente após sua publicação no site.
     </p>
-    <h3 className="text-xl font-semibold mb-2">7. Contact Us</h3>
+    <h3 className="text-xl font-semibold mb-2">7. Contate-nos</h3>
     <p>
-      If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us.
+      Se você tiver quaisquer perguntas sobre esta Política de Privacidade, as práticas deste site ou suas interações com este site, entre em contato conosco.
     </p>
   </div>
 );

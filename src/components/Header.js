@@ -10,7 +10,7 @@ const Header = () => (
     </div>
     <nav className="mr-4">
       <Link to="/faqs" className="mx-2 text-brand-white hover:text-brand-blue">FAQs</Link>
-      <Link to="/contact" className="mx-2 text-brand-white hover:text-brand-blue">Contact Us</Link>
+      <Link to="/contact" className="mx-2 text-brand-white hover:text-brand-blue">Contate-nos</Link>
     </nav>
   </header>
 );
